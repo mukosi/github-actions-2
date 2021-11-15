@@ -2,6 +2,7 @@ name: New Actions Workflow4
 
 on:
   repository_dispatch:
+    types: [builder]
   #schedule:
   #  - cron: "0/5 * * * *"
   #  - cron: "0/6 * * * *"
