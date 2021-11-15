@@ -1,7 +1,7 @@
 name: New Actions Workflow4
 
-on: [push]
-
+on:
+  repository_dispatch:
   #schedule:
   #  - cron: "0/5 * * * *"
   #  - cron: "0/6 * * * *"
